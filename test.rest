@@ -1,0 +1,45 @@
+POST http://localhost:3000/create
+Content-Type: text/html
+
+ {
+        "id": "7",
+        "product": "Samsung galexy 120 Ultra",
+        "pris": "2800",
+        "stock": "2"
+    }
+
+###
+PUT http://localhost:3000/update/7
+Content-Type: text/html
+
+ {
+        "id": "10",
+        "product": " Nokia",
+        "pris": "2800",
+        "stock": "8"
+    }
+###
+PUT http://localhost:3000/update/10
+Content-Type: text/html
+
+ {
+        "id": "10",
+        "product": " Samsung galexy 122 Ultra",
+        "pris": "13800",
+        "stock": "6"
+    }
+###
+GET http://localhost:3000/receive/8
+Content-Type: text/html
+
+###
+
+
+GET http://localhost:3000/receive/12
+Content-Type: text/html
+
+###
+
+
+DELETE  http://localhost:3000/delete/7
+Content-Type: text/html

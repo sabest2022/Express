@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Express Server</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" differ></script>
+</head>
+
+<body>
+    <div class="main">
+        <h3> Express server, you can make changes(create, update, get and delete) on
+            the database...</h3>
+        <div id="info">
+            <div class="input">
+                <input type="text" id="myprod" placeholder="phone model"> <br>
+                <input type="number" id="myid" value=null placeholder="id"><br>
+                <input type="number" id="mypric" value=null placeholder="price"><br>
+                <input type="number" id="mystoc" value=null placeholder="stock"><br>
+                <input type="text" id="mypic" placeholder="Image path(Url)">
+            </div>
+            <p id="demo"></p>
+        </div>
+
+        <div class="div">
+            <button onclick="getFunction()">Get</button>
+            <button onclick="postFunction()">Post</button>
+            <button onclick="putFunction()">Put</button>
+            <button onclick="delFunction()">Delete</button>
+        </div>
+        <br><br>
+        <img id="img" alt="Product's image">
+    </div>
+    </div>
+    <footer>----Sabest@ ----</footer>
+
+</body>
+
+</html>
